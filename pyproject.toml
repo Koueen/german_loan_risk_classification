@@ -1,0 +1,25 @@
+[tool.poetry]
+name = 'german-risk-classification'
+version = "0.1.0"
+description = ""
+authors = ["kouen"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scipy = "^1.12.0"
+pandas = "^2.2.0"
+matplotlib = "^3.8.2"
+xgboost = "^2.0.3"
+category-encoders = "^2.6.3"
+plotly = "^5.22.0"
+ipykernel = "^6.29.4"
+mlxtend = "^0.23.1"
+jupyterlab = "^4.1.8"
+ipywidgets = "^8.1.2"
+nbformat = "^5.10.4"
+
+
+[tool.poetry.group.style.dependencies]
+isort = "^5.12.0"
+black = "^23.11.0"
