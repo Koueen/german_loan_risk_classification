@@ -46,8 +46,8 @@ Random Forest training performs incredibly better than the other, but this is a 
 
 
 <p align="center">
-  <img src="analysis/images/pr_curve_rf.png" alt="Image 1" width="200" />
-  <img src="analysis/images/cm_xgb.png" alt="Image 2" width="200" />
+  <img src="analysis/images/pr_curve_rf.png" alt="Image 1" width="400" />
+  <img src="analysis/images/cm_xgb.png" alt="Image 2" width="400" />
 </p>
 
 
