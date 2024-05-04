@@ -47,7 +47,7 @@ Random Forest training performs incredibly better than the other, but this is a 
     margin-bottom: 30px;
   }
   .image-container img {
-    width: 32%;
+    width: 20%;
     margin: 0 10px;
   }
 </style>
@@ -65,7 +65,7 @@ Random Forest training performs incredibly better than the other, but this is a 
     margin-bottom: 30px;
   }
   .image-container2 img {
-    width: 30%;
+    width: 20%;
     margin: 0 10px;
   }
 </style>
