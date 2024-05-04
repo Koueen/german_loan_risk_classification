@@ -56,16 +56,16 @@ def get_validation_metrics(model):
     roc_auac = cv_results['mean_test_roc_auac'][best_index]
     # Printing validation results
     print('Validation Results')
-    print('Precision: {} ± {}'.format(round(precision, 3), cv_results['std_test_precision'][best_index]))
-    print('Recall: {} ± {}'.format(round(recall, 3), cv_results['std_test_recall'][best_index]))
-    print('Accuracy: {} ± {}'.format(round(accuracy, 3), cv_results['std_test_accuracy'][best_index]))
-    print('F1: {} ± {}'.format(round(f1, 3), cv_results['std_test_f1'][best_index]))
+    print('Precision: {} ± {}'.format(round(precision, 3), round(cv_results['std_test_precision'][best_index],4)))
+    print('Recall: {} ± {}'.format(round(recall, 3),  round(cv_results['std_test_recall'][best_index],4)))
+    print('Accuracy: {} ± {}'.format(round(accuracy, 3), round(cv_results['std_test_accuracy'][best_index],4)))
+    print('F1: {} ± {}'.format(round(f1, 3), round(cv_results['std_test_f1'][best_index],4)))
     print(
         'Balance Accuracy: {} ± {}'.format(
-            round(balance_accuracy, 3), cv_results['std_test_balance_accuracy'][best_index]
+            round(balance_accuracy, 3), round(cv_results['std_test_balance_accuracy'][best_index],4)
         )
     )
-    print('ROC AUAC: {} ± {}'.format(round(roc_auac, 3), cv_results['std_test_roc_auac'][best_index]))
+    print('ROC AUAC: {} ± {}'.format(round(roc_auac, 3), round(cv_results['std_test_roc_auac'][best_index],4)))
 
 
 def plot_confusion_matrix(y_train, y_pred):
