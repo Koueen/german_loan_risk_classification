@@ -39,48 +39,18 @@ Random Forest training performs incredibly better than the other, but this is a 
 
 ## Comparison plots and results
 
-<style>
-  .image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  .image-container img {
-    width: 20%;
-    margin: 0 10px;
-  }
-</style>
-
-<div class="image-container">
-  <img src="analysis/images/cm_rf.png" />
-  <img src="analysis/images/cm_xgb.png" />
-</div>
-
-<style>
-  .image-container2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  .image-container2 img {
-    width: 20%;
-    margin: 0 10px;
-  }
-</style>
-<div class="image-container2">
-  <img src="analysis/images/pr_curve_rf.png" />
-  <img src="analysis/images/pr_curve_xgb.png" />
-</div>
+<p align="center">
+  <img src="analysis/images/cm_rf.png" alt="Image 1" width="200" />
+  <img src="analysis/images/cm_xgb.png" alt="Image 2" width="200" />
+</p>
 
 
-<style>
-  table {
-    margin-left: auto;
-    margin-right: auto;
-  }
-</style>
+<p align="center">
+  <img src="analysis/images/pr_curve_rf.png" alt="Image 1" width="200" />
+  <img src="analysis/images/cm_xgb.png" alt="Image 2" width="200" />
+</p>
+
+
 <h3 style="text-align: center;">TRAINING</h2>
 
 | Model | Mode | Precision | Recall | Accuracy | AUC PR |
