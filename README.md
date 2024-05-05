@@ -1,3 +1,5 @@
+## German Loan Risk Classifier
+
 The dataset corresponds to Credit German Bank, which includes 20 features +1 as the target (client
 risk), in other words, if the client is going to pay off the loan at the end. Due to the high number
 of features I started aiming the problem at looking for relevant features. For that, I used Sequential
@@ -38,6 +40,7 @@ better in evaluation data. Observing recall, XGBoost performs ~5% greater than R
 Random Forest training performs incredibly better than the other, but this is a sign of overfitting. In the following tables and graphs is the comparison carried out.
 
 ## Comparison plots and results
+Left corresponds to random forest and right to XGBoost.
 
 <p align="center">
   <img src="analysis/images/cm_rf.png" alt="Image 1" width="400" />
