@@ -73,7 +73,19 @@ Left corresponds to random forest and right to XGBoost.
 
 ## Annex A: XGBoost Feature Importance
 
+Using SHAP values we can distinguis accuractely the feature impact on the final output of the model trained. As we can see for example, acc_status, credit_history and duration in months have a clear SHAP value distribution depending on the value of these features. This means, depending on the feature value it will affect clearly the risk positively or negatively. The more separated from the center a distribution, the more impact is doing.
+<p align="center">
+    <img src="analysis/images/beeswarm_feature_impact.png" width="700" />
+</p> 
+
+Feature importance, mean absolute SHAP value:
+<p align="center">
+    <img src="analysis/images/feature_importance_shap.png" width="700" />
+</p> 
+
+Feature importance, softmax built-in method.
 <p align="center">
     <img src="analysis/images/feature_importance_xgb.png" width="700" />
 </p> 
+
 
